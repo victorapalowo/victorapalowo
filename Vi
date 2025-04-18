@@ -1,0 +1,14 @@
+# Clone your original repo
+git clone https://github.com/victor-graphics/victorapalowo.git
+
+# Move into the cloned folder
+cd victorapalowo
+
+# Remove the link to the original repo
+git remote remove origin
+
+# Add the new repo as remote
+git remote add origin https://github.com/victor-graphics/victorapalowo-copy.git
+
+# Push everything to the new repo
+git push -u origin main
